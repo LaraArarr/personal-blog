@@ -1,0 +1,27 @@
+/* Layout styles */
+
+/* Use CSS Grid for the main layout */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Media query adjustments */
+@media (min-width: 600px) {
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media (min-width: 901px) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}

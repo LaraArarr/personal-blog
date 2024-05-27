@@ -1,0 +1,176 @@
+/* Components styles */
+
+/* Image caption */
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    padding-left: 0%;
+    padding-top: 0%;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top within the figure */
+    align-items: flex-start; /* Align items to the left within the figure */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -27px; /* Move the figure up a little bit */
+}
+
+figure img {
+    border-radius: 0%;
+    width: 110%; /* Adjust the value to make the image smaller */
+    height: 50%; /* Adjust the value to make the image smaller */
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555; /* Gray */
+}
+
+
+/* Buttons */
+.button {
+    padding: 5px 10px; /* Adjust the padding as needed */
+    font-size: 1em;
+    color: white; /* Text color */
+    background-color: black; /* Background color */
+    border: none;
+    border-radius: 0; /* Ensure rectangular shape */
+    text-decoration: none;
+    margin-top: 573px; /* Adjust the top margin as needed */
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+}
+
+.button:hover {
+    background-color: #8b0000; /* Dark red */
+}
+
+/* Card */
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ccc; /* Light gray */
+    border-radius: 10px; 
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin: 70px auto; /* Center the card horizontally and keep it at the top of the screen */
+    padding: 20px;
+    text-align: center;
+}
+
+
+.card img {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+    border-radius: 0;
+}
+
+
+
+/* menu */
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.menu img {
+    border-radius: 0%;
+    max-width: 90%; /* Adjust the value to make the image smaller */
+    max-height: 90%; /* Adjust the value to make the image smaller */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.menu .bio {
+    display: flex;
+    justify-content: left;
+    max-width: 600px;
+}
+
+.social-sharing {
+    position: absolute; /* Position the social sharing links absolutely */
+    top: 0; /* Position it at the top of the article */
+    right: 0; /* Position it to the right of the article */
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+.social-sharing a {
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #1e90ff; /* Dodger blue */
+}
+
+.social-sharing a:hover {
+    text-decoration: underline;
+}
+
+.logo img {
+    margin-left: auto; /* Push the image to the right */
+    margin-right: 20px; /* Add some space between the image and the edge */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:white ; /* white background */
+}
+
+a {
+    color: #1e90ff; /* Dodger blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 320px) {
+    body {
+        background-color: #e0e0e0; /* Slightly darker gray for small screens */
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        background-color: #f7f7f7; /* Light gray for medium screens */
+    }
+}
+
+@media (min-width: 901px) {
+    body {
+        background-color: #ffffff; /* White for larger screens */
+    }
+}
+

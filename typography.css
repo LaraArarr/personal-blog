@@ -1,0 +1,85 @@
+/* Typography styles */
+
+/* Headers */
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', serif;
+    color: black; 
+}
+
+.h1 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    font-size: 1.85em;
+    margin-top: 0px;
+}
+
+#h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.75em;
+}
+
+/* Paragraph Text */
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: white; 
+
+}
+
+#p1{
+    font-size: 1em;
+    line-height: 1.5;
+    color: black; 
+    margin-top: 10px; 
+    margin-bottom: 0px;
+}
+
+#p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: black; 
+    margin-top: 0px; 
+}
+
+#ps{
+    color:black;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+/* Links */
+a {
+    font-size: 1em;
+    color: #1e90ff; /* Dodger blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Quotes */
+blockquote {
+    font-style: italic;
+    color: #555; /* Gray */
+    padding: 10px 20px;
+    border-left: 5px solid #ccc; /* Light gray */
+    background-color: #f9f9f9; /* Very light gray */
+}
